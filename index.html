@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teach CSS</title>
+    <style>
+        body {background-color: powderblue;}
+        h1   {color: brown; font-weight: bolder; text-align: center; font-size: 56px;}
+        p    {color: red; font-size: 20px;}
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CSS For Beginners</h1>
+    
+    <h6 style="font-size: 26px;">by: Daniel Agapov</h6>
+
+    <h2>What is CSS?</h2>
+    
+    <p>Well, CSS stands for Cascading Style Sheets</p>
+    
+    <p>It's used in tandam with HTML in order to describe various HTML elements.
+        This means that it can adjust previously coded HTML
+    </p>
+
+    <p style="color:blue; font-size: 20px; font-weight: normal;">It's useful to describe these elements in general, rather than individually 
+        having to describe them in the HTML tag as shown below:
+        <br><br><img src="./images/styling in HTML.jpg">
+    </p>
+
+    <p>CSS saves you time and energy, by essentially being like a function in the 
+        sense that, instead of having to repeat a process multiple times, you 
+        can simply call that function. In this case, this would describe how
+        describing an HTML element in CSS can be applied to all instances of 
+        that element, rather than having to describe it in the HTML script 
+        for every single instance.
+    </p>
+
+    <h2>How CSS Works</h2>
+
+    <h3>Selector</h3>
+
+    <p>The selector is a pointer to the HTML element you want to adjust with your rule-set. It's 
+        made up of one or more elements. 
+    </p>
+    
+    <h3>Declaration Blocks</h3>
+
+    <p>The declarations are made up of the rules you want to use in order to adjust said elements. 
+        They are made up of properties and values, separated by a colon and ended off with a semicolon. 
+        You can find various properties by following <a href="https://www.w3schools.com/cssref/">this link</a>.
+    </p>
+
+    <p>Declaration blocks are surrounded by curly braces.</p>
+
+
+    <h2>Internal CSS vs. External CSS</h2>
+    
+    <h3>Internal CSS</h3>
+    
+    <p>An internal stylesheet holds CSS rules for the page in the 'head' section 
+        of the HTML file as shown below:
+        <br><br><img src="./images/internal css in HTML head tag.jpg">
+    </p>
+    
+    <p>This can only be used to define a style for one singular HTML page, rather 
+        than being able to do it for multiple like External CSS can.
+    </p>
+
+    <p>Like External CSS, though, the rules defined in the 'style' tag will apply to all tagged 
+        elements on the page.
+    </p>
+
+    <h4>Example:</h4>
+
+    <br><br><img src="./images/internal css example.jpg">
+
+    <h3>External CSS</h3>
+
+    <p>An external stylesheet is a file created to link to a web page. Its file extension is ".css" and is 
+        normally linked to an HTML or JS file. Below, I'll show you how to link it to an HTML file:
+        <br><br><img src="./images/linking css to html file.jpg">
+    </p>
+    
+    <p>The advantage of having external stylesheets is that it can be created once and the rules may be 
+        applied to multiple web pages. Should you need to make widespread changes to your site design, you 
+        can make a single change in the stylesheet and it'll be applied to all linked pages, saving time and effort.
+    </p>
+
+    <h4>Example:</h4>
+
+    <br><br><img src="./images/external css example.jpg">
+
+    <h2>Other Selectors</h2>
+    
+    <p>These can both be selected in CSS code, just like an HTML element in a selector as shown below:
+        <br><br><img src="./images/css id.jpg">
+    </p>
+    
+    <h3>ID Selector</h3>
+
+    <p>The ID selector uses the ID attribute of an HTML element to select a specific element, as opposed to 
+        all elements with the same tag like 'p'. The ID of an element is unique within a page. In order to 
+        select an element by its unique ID, type the hash character, followed by the element's ID.
+    </p>
+    
+    <h3 class="selector">Class Selector</h3>
+
+    <p>Similarly to the ID selector, it selects HTML elements with a specific class attribute. However, 
+        this isn't unique to a specific element, since multiple elements can be objects with the same 
+        class attributes. 
+    </p>
+    
+    <p>To select elements that are objects of this specific class, type a period character, followed by 
+        the class name, as shown below: 
+        <br><br><img src="./images/css class.jpg">
+    </p>
+
+    <p class="big blue">Additionally, HTML elements can refer to more than one class, as shown below: 
+        <br><br><img src="./images/multi class p.jpg">
+    </p>
+
+    
+    
+
+
+</body>
+</html>
